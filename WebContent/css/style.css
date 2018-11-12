@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/* modal mask 스타일 */
+
+.modalMask {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background: url(../image/header/bg_mask.png);
+}
+
+button {
+    margin: 10px;
+    padding: 5px 15px;
+    font-family: "맑은 고딕";
+    background: #666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.layerPop {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 300;
+    width: 490px;
+    background: #fff;
+    color: #494949;
+    transform: translate(-50%, -50%);
+    /*그냥 너비의 절반, 높이의 절반을 빼는 건가*/
+}
+
+.layerPop input[type=text],
+input[type=password],
+input[type=date],
+input[type=tel],
+input[type=number],
+input[type=email],
+input[type=url],
+input[type=file] {
+    padding: 4px;
+}
+
+/* 팝업 타이틀 스타일 */
+
+.layerPop .popTit {
+    position: relative;
+    height: 39px;
+    line-height: 39px;
+    text-indent: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ff640b;
+    color: #fff;
+}
+
+.layerPop .close {
+    position: absolute;
+    right: 9px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.layerPop .popContents {
+    padding: 25px;
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* 타이틀 정보 스타일 */
+
+.layerPop .popContents .titleArea h3 {
+    font-size: 14px;
+}
+
+.layerPop .popContents .titleArea span {
+    display: block;
+    margin-top: 10px;
+}
+
+/* 로그인 스타일 */
+
+.layerPop .loginType {
+    margin-top: 12px;
+    margin-bottom: 16px;
+    padding: 16px 20px 16px 20px;
+    background: #fafafa;
+    border: 1px solid #eee;
+}
+
+.layerPop .loginType li {
+    display: block;
+    margin-top: 12px;
+}
+
+.layerPop .loginType li:first-child {
+    margin-top: 0;
+}
+
+.layerPop .loginType span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 27px;
+}
+
+.layerPop .loginType span:first-child {
+    width: 120px;
+}
+
+/* 상세 설명 스타일 */
+
+.layerPop .popContents .contentInfo {
+    padding-left: 10px;
+    line-height: 18px;
+    background: url(../image/haeder/bullet_list.gif) no-repeat 2px 8px;
+}
+
+.layerPop .popContents .contentInfo .additional {
+    display: block;
+    margin-top: 6px;
+    font-size: 11px;
+    color: #8e8e8e;
+}
+
+/* 동의 영역 스타일 */
+
+.layerPop .popContents .agreement {
+    margin-top: 27px;
+}
+
+.layerPop .popContents .agreement .check {
+    margin-top: 2px;
+}
+
+.layerPop .popContents .submitArea {
+    clear: left;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.layerPop .popContents .submitArea img:first-child {
+    margin-right: 5px;
+}
+.add_button{
+    width: 90px;
+}

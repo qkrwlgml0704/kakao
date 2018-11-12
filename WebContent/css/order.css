@@ -1,0 +1,67 @@
+.order_div {
+    width: 80%;
+    min-width: 1000px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.order_table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.order_h2, .order_h2_sign {
+    width: 75px;
+    height: 35px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+.order_h2_sign {
+    width: 100px;
+    height: 40px;
+}
+th,td {
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+textarea {
+    margin: 15px 0px;
+}
+.order_text {
+    width: 50px;
+    height: 60px;
+}
+.order_address {
+    width: 100px;
+    height: 100px;
+}
+.input_address {
+    margin: 3px 0px;
+}
+.submit {
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4d4d4d;
+    font-weight: bold;
+    margin: 75px 0px;
+}
+.submit:hover {
+    background-color: #2d2d2d;
+}
+.payment_button {
+    margin: 0 auto;
+    width: 100px;
+}
+.order_text, .order_address:first-child {
+    width: 280px;
+    background-color: #dcdcdc;
+    font-weight: bold;
+    font-size: 13px;
+}
+.email{
+    width: 170px;
+}

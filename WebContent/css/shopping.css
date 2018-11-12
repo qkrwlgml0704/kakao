@@ -1,0 +1,63 @@
+th,td {
+    padding: 20px 0px;
+}
+.shopping_div {
+    position: relative;
+    min-width:1000px;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.shopping_table {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    float: right;
+}
+.shopping_img {
+    width: 450px;
+    float: left;
+    margin-top: 25px;
+}
+.title_h1, a {
+    text-align: center;
+}
+.title_h1 {
+    margin-bottom: 20px;
+}
+.table_btn {
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    border-radius: 2px;
+    background-color: #cccccc;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+.table_btn:first-child {
+    background-color: #4d4d4d;
+    margin-left: 20px;
+}
+.table_btn:first-child > a {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.money_btn {
+    width: 20px;
+}
+#text {
+    width: 50px;
+    text-align: center;
+}
+#money {
+    color: #936817; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+    

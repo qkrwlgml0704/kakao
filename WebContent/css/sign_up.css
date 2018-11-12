@@ -1,0 +1,65 @@
+.sign_up_div {
+    position: relative;
+    width: 800px;
+    height: 750px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.sign_up_h3 {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+table {
+    margin-top: 50px;
+    border-spacing: 0px;
+    border: 1px solid gray;
+}
+td:first-child {
+    width: 280px;
+    background-color: #fff886;
+    font-weight: bold;
+}
+input {
+    width: 200px;
+    height: 30px;
+}
+td {
+    width: 480px;
+    height: 80px;
+    padding-left: 20px;
+    border: 0.5px solid gray;
+}
+input[type=radio] {
+    width: 20px;
+    height: 15px;
+}
+input[type=radio]:last-child {
+    margin-left: 40px;
+}
+select {
+    height: 35px;
+}
+.submit_signup {
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4d4d4d;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+.submit_signup:hover {
+    background-color: #2d2d2d;
+}
+.submit_div {
+    margin: 0 auto;
+    width: 100px;
+}
+.call { width: 70px; }
+.email_select { width: 200px; }
+.call_select { width: 70px; }

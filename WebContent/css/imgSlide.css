@@ -1,0 +1,78 @@
+.cycle-slideshow,
+.cycle-clideshow* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cycle-slideshow {
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+}
+
+.cycle-slideshow div.slide {
+    width: 100%;
+    height: auto;
+}
+
+.cycle-slideshow img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0px;
+    display: block;
+}
+
+.cycle-slideshow img:first-child {
+    position: static;
+    z-index: 100;
+}
+
+.cycle-pager {
+    text-align: center;
+    z-index: 500;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.cycle-pager span {
+    font-family: arial;
+    font-size: 250%;
+    margin-right: 10px;
+    display: inline;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.cycle-pager span.cycle-pager-active {
+    color: #8d8d8d;
+}
+
+.cycle-pager > * {
+    cursor: pointer;
+}
+
+@media all and (min-width:768px) {
+    
+    /* 적용할 게 없음 */
+    
+}
+
+@media all and (min-width:1440px) {
+    
+    .cycle-slideshow {
+/*        max-width: 1000px;*/
+/*        max-height: 900px;*/
+        float: left;
+        position: relative;
+    }
+    
+    .cycle-slideshow div.slide {
+        width: 630px;
+        height: 550px;
+    }
+    
+}

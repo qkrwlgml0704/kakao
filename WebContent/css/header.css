@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif;
+}
+p { margin: 0; }
+li,a { list-style: none; text-decoration: none; }
+
+.cfixed::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.header {
+    position: relative;
+    background-color: #ffdd00;
+    height: 60px;
+}
+
+.header .logo {
+    float: left;
+    line-height: 60px;
+    padding-left: 5%;
+}
+
+.header .logo a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.header .gnb {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+}
+
+.header .gnb li a {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5c563f;
+}
+
+
+.header .glyphicon-menu-hamburger {
+    float: right;    
+    font-size: 25px;
+    cursor: pointer;
+    padding-right: 5%;
+    display: inline-block;
+    line-height: 60px;
+}
+
+/* 테블릿형 css */
+
+@media all and (min-width: 768px) {
+
+    .header {
+        position: static;
+        height: 70px;
+    }
+    
+    .header .logo {
+        line-height: 70px;
+    }
+
+    .header .logo a {
+        font-size: 23px;
+        margin-right: 10px;
+    }
+
+    .header .gnb {
+        display: block !important;
+        position: static;
+        width: auto;
+        padding-top: 0.1px;
+        /* 이거 없애면 위에 공간이 생김 */
+    }
+
+    .header .gnb li {
+        float: left;
+        display: inline-block;
+        line-height: 70px;
+        margin-left: 30px;
+    }
+
+    .header .gnb li a {
+        font-size: 16px;
+        color: #5c563f;
+        
+    }
+
+    .header .icon_position {
+        float: right;
+        padding-right: 5%;
+    }
+
+    .icon_position span {
+        font-size: 17px;
+        display: inline-block;
+        line-height: 50px;
+        margin-left: 15px;
+    }
+    
+    .header .glyphicon-menu-hamburger  {
+        display: none !important;
+    }
+    
+}
+
+/* 컴퓨터형 css */
+
+@media all and (min-width: 1440px) {
+
+    /* 색깔 채우기 용*/
+    .all_header {
+        width: 100%;
+        background: #ffdd00;
+    }
+
+    .wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header {
+        position: static;
+        height: 75px;
+    }
+    
+    .header .logo {
+        line-height: 75px;
+        padding-left: 2%;
+    }
+    
+    .header .logo a {
+        font-size: 25px;
+        margin-right: 30px;
+    }
+
+    .header .gnb li {
+        margin-left: 50px;
+        line-height: 75px;
+    }
+
+    .header .gnb li a {
+        font-size: 17px;
+    }
+
+    .header .icon_position {
+        padding-right: 2%;
+    }
+
+    .icon_position span {
+        font-size: 20px;
+        line-height: 50px;
+        margin-left: 25px;
+    }
+
+}

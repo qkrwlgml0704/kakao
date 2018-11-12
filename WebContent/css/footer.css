@@ -1,0 +1,73 @@
+@media all and (min-width:320px){
+    
+    .footer {
+        clear: both;
+    }
+    
+    .footer hr {
+        margin: 40px 0px;
+    }
+    
+    .footer_div1 {
+        width: 260px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    
+    .footer_div2 {
+        width: 190px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media all and (min-width:768px){
+    
+    .footer hr {
+        margin: 50px 0px;
+    }
+    
+    .footer_div1 {
+        width: 300px;
+        height: 50px;
+        margin-top: 50px;
+        font-size: 12px;
+    }
+    
+    .footer_div2 {
+        width: 225px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media all and (min-width:1440px) {
+    
+    .footer hr {
+        margin: 70px 0px;
+    }
+    
+    .footer_div1 {
+        width: 590px;
+        height: 60px;
+        margin-top: 70px;
+        font-size: 15px;
+    }
+    
+    .footer_div1 p::after {
+        content: " | 이메일 : brs0704@naver.com";
+    }
+    
+    .footer_div2 {
+        width: 445px;
+        margin-bottom: 70px;
+    }
+    
+    .footer_div2 p::after {
+        content: " | 전화 : 02 - 789 - 3641";
+    }
+
+}
